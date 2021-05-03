@@ -35,7 +35,7 @@ function pari(somma){
 }
 }
 
-if (pariDispari == pari && pari == true || paridispari == dispari && pari == false) {
+if (numeroUtente == pari && pari == true || numeroUtente == pari && pari == false) {
     document.getElementById("esito").innerHTML = "Hai vinto!"
 } else{
     document.getElementById("esito").innerHTML = "Hai perso! Ritenta, sarai più fortunato"
